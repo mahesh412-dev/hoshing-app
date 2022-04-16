@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-
+import CompSub from './subComponent'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+     
+  THIS IS BRANCH WORKING OF BRANCH-2
+ 
+        
+      <CompSub></CompSub> 
     </div>
   );
 }
